@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    .contener{
+        height: 1500px;
+        width: 100%;
+        display: flex;
+
+    }
+    .main1{
+        width: 285px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed; 
+        background-color: #F5F5F5;
+    }
+    #img1{
+        height: 145px;
+        width: 160px;
+        border-radius:47%;
+    }
+    .anc1{
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        color: black;
+    }
+    #li1{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    #li1:hover{
+        text-decoration: underline;
+        color: black;
+        
+    }
+    .ul1{
+        list-style: none;
+        line-height: 35px;
+        text-align: center;
+        position: relative;
+        top: 20px;
+        right: 18px;
+        color: #494949;
+        font-family: 'Poppins', sans-serif;
+    }
+    .he1{
+        font-size: 17px;
+        margin: 10% 0% 0% -8%;
+        font-family: 'Poppins', sans-serif;
+        color: #494949;
+    }
+    #in1{
+        height: 30px;
+        width: 200px;
+        background-color:#fff;
+        border: #F5F5F5;
+        margin: 5% 0% 0% 0%;
+    }
+    #icon1{
+        position: relative;
+        left: 90px;
+        bottom: 23px;
+        font-size: 20px;
+        color: gray;
+    }
+    .main2{
+        width: 430px;
+        height: 600px;
+        margin: 0% 0% 0% 25%;
+    }
+    #imgd2{
+        height: 600px;
+        width: 430px;
+        margin: 0% 0% 0% 0%;
+        background-color: #;
+    }
+    #imgd2:hover{
+        content: url('https://preview.colorlib.com/theme/louie/images/author-2.jpg');
+
+    }
+    .main3{
+        height: 600px;
+        width: 450px;
+        margin: 0% 0% 0% 3%;
+    }
+    #h2{
+        font-size: 25px;
+        color: grey;
+        font-family: 'Montserrat', sans-serif;
+        margin: 6% 0% 0% 5%;
+    }
+    .hec1{
+        font-size: 40px;
+        font-family: 'Poppins', sans-serif;
+        margin: 0% 0% 0% 5%;
+    }
+    .pag1{
+        font-size: 17px;
+        letter-spacing: 1px;
+        color: grey;
+        margin: 3% 0% 0% 5%;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .hec2{
+        font-size: 30px;
+        font-family: 'Herr Von Muellerhoff', cursive;
+        margin: 6% 0% 0% 5%;
+        color: #494949;
+    }
+    #icon2{
+        font-size: 25px;
+        margin: 3% 0% 0% 5%;
+    }
+    .main4{
+        height: 250px;
+        width: 900px;
+        margin: 60% 0% 0% -65%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+   .flfont{
+       position: absolute;
+       font-size: 14px;
+       font-family: 'Poppins', sans-serif;
+       letter-spacing: 2px;
+       text-transform: uppercase;
+       margin: 0% 0% 0% 5%;
+       color: #494949;
+   }
+    .mainimg4{
+        height: 180px;
+        width: 800px;
+        margin: 4% 0% 0% 0%;
+        display: flex;
+        flex-direction: row;
+    }
+    .img4div1{
+        height: 180px;
+        width: 160px;
+        margin: 0% 0% 0% 0%;
+        background-image: url(https://preview.colorlib.com/theme/louie/images/image_1.jpg);
+        background-size: cover;
+    }
+    .img4div1:hover{
+        background-color: black;
+    }
+    .img4div2{
+        height: 180px;
+        width: 160px;
+        margin: 0% 0% 0% 0%;
+        background-image: url(https://preview.colorlib.com/theme/louie/images/image_2.jpg);
+        background-size: cover;
+    }
+    .img4div2:hover{
+        background-color: black;
+    }
+    .img4div3{
+        height: 180px;
+        width: 160px;
+        margin: 0% 0% 0% 0%;
+        background-image: url(https://preview.colorlib.com/theme/louie/images/image_3.jpg);
+        background-size: cover;
+    }
+    .img4div3:hover{
+        background-color: black;
+    }
+    .img4div4{
+        height: 180px;
+        width: 160px;
+        margin: 0% 0% 0% 0%;
+        background-image: url(https://preview.colorlib.com/theme/louie/images/image_4.jpg);
+        background-size: cover;
+    }
+    .img4div4:hover{
+        background-color:black;
+    }
+    .img4div5{
+        height: 180px;
+        width: 160px;
+        margin: 0% 0% 0% 0%;
+        background-image: url(https://preview.colorlib.com/theme/louie/images/image_5.jpg);
+        background-size: cover;
+    }
+    .img4div5:hover{
+        background-color: black;
+    }
+    .main5{
+        height: 500px;
+        width: 910px;
+        margin: 85% 0% 0% -70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #242423;
+    }
+    .conta1{
+        height: 280px;
+        width: 320px;
+        margin: 10% 0% 0% 5%;
+        display: flex;
+        flex-direction: row;
+        
+
+    }
+    .cent1{
+        height: 100px;
+        width: 100px;
+        margin: 15% 0% 0% 0%;
+        background-image: url(https://preview.colorlib.com/theme/louie/images/image_1.jpg);
+        background-size: cover;
+    }
+    .cent2{
+        height: 100px;
+        width: 100px;
+        margin: 15% 0% 0% 0%;
+        background-image: url(https://preview.colorlib.com/theme/louie/images/image_2.jpg);
+        background-size: cover;
+
+    }
+    .cent3{
+        height: 100px;
+        width: 100px;
+        margin: 15% 0% 0% 0%;
+        background-image: url(https://preview.colorlib.com/theme/louie/images/image_3.jpg);
+        background-size: cover;
+    }
+    .cent4{
+        height: 100px;
+        width: 100px;
+        margin: 46.5% 0% 0% -95%;
+        background-image: url(https://preview.colorlib.com/theme/louie/images/image_4.jpg);
+        background-size: cover;
+    }
+    .cent5{
+        height: 100px;
+        width: 100px;
+        margin: 46.5% 0% 0% 0%;
+        background-image: url(https://preview.colorlib.com/theme/louie/images/image_5.jpg);
+        background-size: cover;
+    }
+    .cent6{
+        height: 100px;
+        width: 100px;
+        margin: 46.5% 0% 0% 0%;
+        background-image: url(https://preview.colorlib.com/theme/louie/images/image_6.jpg);
+        background-size: cover;
+    }
+    .conta2{
+        height: 300px;
+        width: 400px;
+        margin: 10% 0% 0% 0%;
+    }
+    .conta3{
+        height: 300px;
+        width: 400px;
+        margin: 10% 0% 0% 0%;
+    }
+    .conta1pera{
+        position: absolute;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        letter-spacing: 3px;
+    }
+    .conta2pera{
+        position: absolute;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        letter-spacing: 3px;
+    }
+    .conta2pera1{
+        font-size: 11px;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        margin: 25% 0% 0% 2%;
+    }
+    .conta2pera1-1{
+        margin: -2.5% 0% 0% 2%; 
+        color: #fff;
+    }
+    .conta2pera2{
+        font-size: 11px;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        margin: 5% 0% 0% 2%;
+    }
+    .conta2pera2-1{
+        margin: -2.5% 0% 0% 2%; 
+        color: #fff;
+    }
+    .conta2pera3{
+        font-size: 11px;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        margin: 5% 0% 0% 2%;
+    }
+    .conta2pera3-1{
+        margin: -2.5% 0% 0% 2%; 
+        color: #fff;
+    }
+    .conta2pera4{
+        font-size: 11px;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        margin: 5% 0% 0% 2%;
+    }
+    .conta2pera4-1{
+        margin: -2.5% 0% 0% 2%; 
+        color: #fff;
+    }
+    .conta2pera5{
+        font-size: 11px;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        margin: 5% 0% 0% 2%;
+    }
+    .conta2pera5-1{
+        margin: -2.5% 0% 0% 2%; 
+        color: #fff;
+    }
+    .conta3pera{
+        position: absolute;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        letter-spacing: 3px;
+    }
+    .conpera3-1{
+        font-size: 11px;
+        font-family: 'Poppins', sans-serif;
+        color: #494949;
+        margin: 25% 0% 0% 12%;
+    }
+    .conpera3-2{
+        font-size: 11px;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        margin: 5% 0% 0% 12%;
+    }
+    .conpera3-3{
+        font-size: 11px;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        margin: 7% 0% 0% 12%;
+    }
+    #icn-1{
+        font-size: 15px;
+        color: #fff;
+        margin: 6% 0% 0% 0.5%;
+        position: absolute;
+    }
+    #icn-2{
+        font-size: 13px;
+        color: #fff;
+        margin: 1.5% 0% 0% 0.5%;
+        position: absolute;
+    }
+    #icn-3{
+        font-size: 14px;
+        color: #fff;
+        margin: 1.8% 0% 0% 0.5%;
+        position: absolute;
+    }
+    .last{
+        font-size: 14px;
+        font-family:  'Montserrat', sans-serif;
+        margin: 35% 0% 0% -25%;
+        position: absolute;
+        color: #494949;
+    }
+</style>
+<body>
+    <div class="contener">
+    <div class="main1">
+        <img src="https://preview.colorlib.com/theme/louie/images/author.jpg" alt="" id="img1">
+        <br>
+        <a href="" class="anc1"><b>Louie Smith</b></a>
+        <ul class="ul1">
+            <li id="li1">Home</li>
+            <li id="li1">Collection</li>
+            <li id="li1">About Me</li>
+            <li id="li1">My Services</li>
+            <li id="li1">Blog</li>
+            <li id="li1">Contact</li>
+        </ul>
+        <h1 class="he1">Newsletter</h1>
+        <input type="email" placeholder="Enter Email Address" id="in1" >
+        <i class="fa-brands fa-telegram" id="icon1"></i>
+    </div>
+    <div class="main2">
+        <img src="https://preview.colorlib.com/theme/louie/images/author.jpg" alt="" id="imgd2">
+       
+    </div>
+    <div class="main3">
+        <h2 id="h2">Hello! I'm</h2>
+        <h1 class="hec1">Louie Smith A <br> <b style="color: #CCB78F;"> Photographer. I </b> <br> Capture Life</h1>
+        <p class="pag1">I am A Photographer from America Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        <h1 class="hec2">Louie Smith</h1>
+        <i class="fa-brands fa-twitter" id="icon2"></i>
+        <i class="fa-brands fa-facebook" id="icon2"></i>
+        <i class="fa-brands fa-instagram" id="icon2"></i>
+     </div>
+     <div class="main4">
+        <h3 class="flfont">FOLLOW ME ON INSTAGRAM</h3>
+        <div class="mainimg4">
+        <div class="img4div1"></div>
+        <div class="img4div2"></div>
+        <div class="img4div3"></div>
+        <div class="img4div4"></div>
+        <div class="img4div5"></div>
+    </div>
+     </div>
+     <footer class="main5">
+        <div class="conta1">
+            <h3 class="conta1pera">RECENT PHOTOS</h3>
+            <div class="cent1"></div>
+            <div class="cent2"></div>
+            <div class="cent3"></div>
+            <div class="cent4"></div>
+            <div class="cent5"></div>
+            <div class="cent6"></div>
+        </div>
+        <div class="conta2">
+            <h3 class="conta2pera">ARCHIVES</h3>  
+             <p class="conta2pera1">November 2018 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (105)</p>
+             <p class="conta2pera1-1">_______________________________</p>
+             <p class="conta2pera2">October 2018 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (212)</p>
+             <p class="conta2pera2-1">_______________________________</p>
+             <p class="conta2pera3">September 2018 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (150)</p>
+             <p class="conta2pera3-1">_______________________________</p>
+             <p class="conta2pera4">August 2018 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (100)</p>
+             <p class="conta2pera4-1">_______________________________</p>
+             <p class="conta2pera5">July 2018 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (200)</p>
+             <p class="conta2pera5-1">_______________________________</p>
+        </div>
+        <div class="conta3">
+            <h3 class="conta3pera">HAVE A QUESTIONS?</h3>
+            <i id="icn-1" class="fa-solid fa-location-dot"></i><p class="conpera3-1"></i>203 Fake St. Mountain View, San Francisco, California, USA</p>
+            <i id="icn-2" class="fa-solid fa-phone"></i><p class="conpera3-2">+2 392 3929 210</p>
+            <i id="icn-3" class="fa-solid fa-envelope"></i><p class="conpera3-3">info@yourdomain.com</p>
+        </div>
+        <h3 class="last">Copyright ©2024 All rights reserved | This template is made with  by Colorlib</h3>
+     </footer>
+    </div>
+</body>
+</html>

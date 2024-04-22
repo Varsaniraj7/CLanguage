@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: default;
+}
+
+/* HEADER SECTION */
+.header{
+    height: 13vh;
+    width: 100%;
+    padding-left: 150px;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+}
+.navigation{
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navigation a{
+    font-weight: 500;
+    font-size: 15px;
+    color: gray;
+    text-decoration: none;
+    transition-duration: .3s;
+}
+.navigation a:first-child{
+    color: #3872F0;
+}
+.navigation a:hover{
+    color: #3872F0;
+}
+.icon{
+    width: 30%;
+    margin-left: 125px;
+}
+.icon > i{
+    font-size: 15px;
+    margin-right: 20px;
+}
+.icon > button{
+    height: 45px;
+    width: 150px;
+    border-radius: 50px;
+    border: none;
+    margin-left: 30px;
+}
+
+/* HOME SECTION */
+.home{
+    height: 113vh;
+    width: 100%;
+    display: flex;
+}
+.home-part1{
+    height: 100%;
+    width: 35%;
+    background-color: #3C4DEA;
+}
+.home-part2{
+    height: 100%;
+    width: 65%;
+    background-color: #F1F6F7;
+}
+.home-image{
+    height: 90%;
+    width: 30%;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;    
+    top: 23%;
+    left: 15%;
+}
+.home-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.home-content{
+    height: 50%;
+    width: 60%;
+    margin-top: 30%;
+    margin-left: 25%;
+}
+.home-content > h3{
+    color: #555555;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.home-content > h1{
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.home-content > p{
+    color: gray;
+    margin-block: 30px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.home-content > button{
+    height: 50px;
+    width: 175px;
+    background-color: #384AEB;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/* IMAGE SECTION */
+.image{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .666%;
+}
+.img1{
+    height: 100%;
+    width: 32.8%;
+}
+.img1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    padding-block: 20px;
+}
+
+.part1{
+    height: 47%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.one{
+    height: 100%;
+    width: 23%;   
+    background-color: rgb(240, 240, 240);
+    border-radius: 15px; 
+    -webkit-box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.3);
+}
+
+.part2{
+    height: 47%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.second{
+    height: 100%;
+    width: 23%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 15px; 
+    -webkit-box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.3);
+}
+
+
+.image{
+    height: 60%;
+    padding-block: 10px;
+    width: 100%;
+}
+.image img{
+    height: 100%;
+    margin-inline: 30%;
+    width: 40%;
+}
+
+.text{
+    padding: 10px 20px;
+}
+.text b{
+    color: gray;
+}
+.name{
+    font-size: 18px;
+}
+.price{
+    margin-top: 10px;
+}
+.text strike{
+    color: gray;
+    font-size: 17px;
+    margin-inline: 10px;
+}
+.text small{
+    color: green;
+    margin-left: 20px;
+}
+.text img{
+    margin-top: 5px;
+    height: 30px;
+    width: 85px;
+}

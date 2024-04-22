@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.a{
+    width: 12.5%;
+    height: 150px;
+    background-color: black;
+    float: left;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+}
+.b{
+    width: 12.5%;
+    height: 150px;
+    background-color:;
+    float: left;
+    color:rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+}
+.c{
+    width: 90%;
+    height: 1220px;
+    margin-left: 5%;
+    border: 5px solid;
+}
+.a:hover{
+   transform: scale(1.2);
+}
+.b:hover{
+    transform: scale(1.2);
+ }

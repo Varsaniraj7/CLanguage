@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS Link -->
+    <!-- Boxicon Link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Boxicon Link -->
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Jquery -->
+    <!-- Apex js -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <!-- Apex js -->
+    <!-- Calender -->
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js"></script>
+    <!-- Calender -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.js"></script>
+</head>
+<body>
+    <!-- Main div -->
+    <div class="main">
+     <!-- sidebar -->
+        <div class="sidebar">
+            <!-- Logo -->
+                <div class="logo">
+                    <img src="https://modernize-nextjs.adminmart.com/images/logos/dark-logo.svg" alt="logo">
+                </div>
+            <!-- Logo -->
+
+            <div class="ll">
+                <!-- Home -->
+                <div class="home">
+                    <h1>Home</h1>
+                    <div class="dis">
+                        <div class="mod">
+                            <button class="btn">
+                                <h6> <i class='bx bxl-chrome'></i> Modern</h6>
+                            </button>
+                        </div>
+                        <div class="mod">
+                            <button class="btn">
+                                <h6> <i class='bx bx-cart'></i> eCommerce</h6>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            <!-- Home -->
+            
+            <!-- App -->
+            <div class="home">
+                <h1>Apps</h1>
+                <div class="dis">
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-package'></i> Contact</h6>
+                        </button>
+                    </div>
+                    <div class="mod-1">
+                        <button class="btn">
+                            <h6> <i class='bx bxl-blogger'></i> Blog</h6>
+                            <i class='bx bx-chevron-down' ></i>
+                        </button>
+                        <div class="a2">
+                            <ul style="list-style-type:circle">
+                                <li><a href="#"><h6>Post</h6></a></li>
+                                <li><a href="#"><h6>Detail</h6></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mod-1">
+                        <button class="btn">
+                            <h6> <i class='bx bx-shopping-bag' ></i> Ecommerce</h6>
+                            <i class='bx bx-chevron-down' ></i>
+                        </button>
+                        <div class="a2">
+                            <ul style="list-style-type:circle">
+                                <li><a href="#"><h6>Shop</h6></a></li>
+                                <li><a href="#"><h6>Detail</h6></a></li>
+                                <li><a href="#"><h6>List</h6></a></li>
+                                <li><a href="#"><h6>Checkout</h6></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-chat' ></i> Chats</h6>
+                        </button>
+                    </div>
+                    <div class="mod-1">
+                        <button class="btn">
+                            <h6> <i class='bx bx-user-circle' ></i> Users</h6>
+                            <i class='bx bx-chevron-down' ></i>
+                        </button>
+                        <div class="a2">
+                            <ul style="list-style-type:circle">
+                                <li><a href="#"><h6>Profile</h6></a></li>
+                                <li><a href="#"><h6>Followers</h6></a></li>
+                                <li><a href="#"><h6>Friends</h6></a></li>
+                                <li><a href="#"><h6>Gallery</h6></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-note' ></i> Notes</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-extension'></i> Calender</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-extension'></i> Email</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-movie' ></i> Tickets</h6>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- App -->
+
+            <!-- Pages -->
+            <div class="home">
+                <h1>Pages</h1>
+                <div class="dis">
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-lock-alt' ></i> Roll BaseAceess</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-network-chart'></i> Treeview</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-dollar' ></i> Pricing</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bxs-user-circle' ></i> Account Setting</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-question-mark' ></i> FAQ</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-note' ></i> Landingpage</h6>
+                        </button>
+                    </div>
+                    <div class="mod-1">
+                        <button class="btn">
+                            <h6> <i class='bx bxs-widget' ></i> Widgets</h6>
+                            <i class='bx bx-chevron-down' ></i>
+                        </button>
+                        <div class="a2">
+                            <ul style="list-style-type:circle">
+                                <li><a href="#"><h6>Cards</h6></a></li>
+                                <li><a href="#"><h6>Banners</h6></a></li>
+                                <li><a href="#"><h6>Charts</h6></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Pages -->
+            
+            <!-- Forms -->
+            <div class="home">
+                <h1>Forms</h1>
+                <div class="dis">
+                    <div class="mod-1">
+                        <button class="btn">
+                            <h6> <i class='bx bx-lock-alt' ></i> Form Elements</h6>
+                            <i class='bx bx-chevron-down' ></i>
+                        </button>
+                        <div class="a2">
+                            <ul style="list-style-type:circle">
+                                <li><a href="#"><h6>AutoComplete</h6></a></li>
+                                <li><a href="#"><h6>Button</h6></a></li>
+                                <li><a href="#"><h6>Checkbox</h6></a></li>
+                                <li><a href="#"><h6>Radio</h6></a></li>
+                                <li><a href="#"><h6>Date Time</h6></a></li>
+                                <li><a href="#"><h6>Slider</h6></a></li>
+                                <li><a href="#"><h6>Switch</h6></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-layout' ></i> Form Layout</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-grid-horizontal' ></i> Form Horizontal</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-grid-vertical'></i> Form Vertical</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-customize' ></i> Form Custom</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-notepad' ></i> Form Wizard</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-notepad' ></i> Form Validation</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-edit-alt' ></i> Quill Editor</h6>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Forms -->  
+
+            <!-- Tables -->
+            <div class="home">
+                <h1>Tables</h1>
+                <div class="dis">
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-table' undefined ></i> Basic</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-grid-alt' ></i> Collapsible</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-plus' ></i> Enhanced</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-grid-vertical'></i> Fixed Header</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-grid-horizontal' ></i> Pagination</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-search-alt-2' ></i> Serach</h6>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Tables -->
+
+            <!-- Charts -->
+            <div class="home">
+                <h1>Charts</h1>
+                <div class="dis">
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-line-chart'></i> Line</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-edit-alt' ></i> Gradient</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-plus' ></i> Area</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-candles' ></i> Candlestick</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6>  <i class='bx bx-columns' ></i> Column</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-doughnut-chart' ></i> Pie</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-radar' ></i> RadialBar</h6>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Charts -->
+            
+            <!-- Auth -->
+            <div class="home">
+                <h1>Auth</h1>
+                <div class="dis">
+                    <div class="mod-1">
+                        <button class="btn">
+                            <h6>  <i class='bx bx-log-in' ></i> Login</h6>
+                            <i class='bx bx-chevron-down' ></i>
+                        </button>
+                        <div class="a2">
+                            <ul style="list-style-type:circle">
+                                <li><a href="#"><h6>Side Login</h6></a></li>                                
+                                <li><a href="#"><h6>Boxed Login</h6></a></li>                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mod-1">
+                        <button class="btn">
+                            <h6>  <i class='bx bx-user-plus' ></i> Register</h6>
+                            <i class='bx bx-chevron-down' ></i>
+                        </button>
+                        <div class="a2">
+                            <ul style="list-style-type:circle">
+                                <li><a href="#"><h6>Side Register</h6></a></li>                                
+                                <li><a href="#"><h6>Boxed Register</h6></a></li>                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mod-1">
+                        <button class="btn">
+                            <h6>  <i class='bx bx-loader-circle'></i> Forgot Password</h6>
+                            <i class='bx bx-chevron-down' ></i>
+                        </button>
+                        <div class="a2">
+                            <ul style="list-style-type:circle">
+                                <li><a href="#"><h6>Side Forgot Password</h6></a></li>                                
+                                <li><a href="#"><h6>Boxed Forgot Password</h6></a></li>                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mod-1">
+                        <button class="btn">
+                            <h6>  <i class='bx bx-search-alt' ></i> Two Steps</h6>
+                            <i class='bx bx-chevron-down' ></i>
+                        </button>
+                        <div class="a2">
+                            <ul style="list-style-type:circle">
+                                <li><a href="#"><h6>Side Two Steps</h6></a></li>                                
+                                <li><a href="#"><h6>Boxed Two Steps</h6></a></li>                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bxs-error-circle' ></i> Error</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-cog' ></i> Maintenance</h6>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Auth -->
+            
+            <!-- Other -->
+            <div class="home">
+                <h1>Other</h1>
+                <div class="dis">
+                    <div class="mod-1">
+                        <button class="btn">
+                            <h6>  <i class='bx bx-menu-alt-left' ></i> Menu Level</h6>
+                            <i class='bx bx-chevron-down' ></i>
+                        </button>
+                        <div class="a2">
+                            <ul style="list-style-type:circle">
+                                <li><a href="#"><h6>Level 1</h6></a></li>                                
+                                <li><a href="#"><h6>Level 2</h6></a></li>                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mod" id="disabled" style="opacity: 0.3;">
+                        <button class="btn">
+                            <h6> <i class='bx bxs-x-circle' ></i> Disabled</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-badge' ></i> Chip</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-smile' ></i> Outlined</h6>
+                        </button>
+                    </div>
+                    <div class="mod">
+                        <button class="btn">
+                            <h6> <i class='bx bx-star' ></i> External Link</h6>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Other -->
+            </div>
+
+        </div>
+    <!-- sidebar -->
+        <div class="sidebar-hide">
+            <!-- logo -->
+            <img src="https://th.bing.com/th/id/OIP.7NHa7HK4NNrJbOWRNdsCxAAAAA?rs=1&pid=ImgDetMain" class="logo-1" alt="logo">
+            <div class="icon-set">
+                <i class='bx bxl-chrome'></i>
+                <i class='bx bx-cart'></i>
+                <i class='bx bx-package'></i>
+                <i class='bx bxl-blogger'></i>
+                <i class='bx bx-shopping-bag' ></i>
+                <i class='bx bx-chat' ></i>
+                <i class='bx bx-user-circle' ></i>
+                <i class='bx bx-note' ></i>
+                <i class='bx bx-extension'></i>
+                <i class='bx bx-extension'></i>
+                <i class='bx bx-movie' ></i>
+                <i class='bx bx-lock-alt' ></i>
+                <i class='bx bx-network-chart'></i>
+                <i class='bx bx-dollar' ></i>
+                <i class='bx bxs-user-circle' ></i>
+                <i class='bx bx-question-mark' ></i>
+                <i class='bx bx-note' ></i>
+                <i class='bx bxs-widget' ></i>
+                <i class='bx bx-lock-alt' ></i>
+                <i class='bx bx-layout' ></i>
+                <i class='bx bx-grid-horizontal' ></i>
+                <i class='bx bx-grid-vertical'></i>
+                <i class='bx bx-customize' ></i>
+                <i class='bx bx-notepad' ></i>
+                <i class='bx bx-notepad' ></i>
+                <i class='bx bx-edit-alt' ></i>
+                <i class='bx bx-table' ></i>
+                <i class='bx bx-grid-alt' ></i>
+                <i class='bx bx-plus' ></i>
+                <i class='bx bx-grid-vertical'></i>
+                <i class='bx bx-grid-horizontal' ></i>
+                <i class='bx bx-search-alt-2' ></i>
+                <i class='bx bx-line-chart'></i>
+                <i class='bx bx-edit-alt' ></i>
+                <i class='bx bx-plus' ></i>
+                <i class='bx bx-candles' ></i>
+                <i class='bx bx-columns' ></i>
+                <i class='bx bx-doughnut-chart' ></i>
+                <i class='bx bx-radar' ></i>
+                <i class='bx bx-log-in' ></i>
+                <i class='bx bx-user-plus' ></i>
+                <i class='bx bx-loader-circle'></i>
+                <i class='bx bx-search-alt' ></i>
+                <i class='bx bxs-error-circle'></i>
+                <i class='bx bx-cog' ></i>
+                <i class='bx bx-menu-alt-left' ></i>
+                <i class='bx bxs-x-circle' style="opacity: 0.3;"></i>
+                <i class='bx bx-badge' ></i>
+                <i class='bx bx-smile' ></i>
+                <i class='bx bx-star' ></i>
+            </div>
+            <!-- logo -->
+        </div>
+    <div class="data">
+    <!-- Navbar -->
+        <div class="navbar">
+            <div class="nav-left">
+                <a href="#">
+                    <i class='bx bx-menu' ></i>
+                </a>
+                <a href="#">
+                    <i class='bx bx-search' ></i>
+                </a>
+                <a href="#">Apps</a>
+                <a href="#">Chat</a>
+                <a href="#">Calender</a>
+                <a href="#">Email</a>
+            </div>
+            <div class="nav-right">
+                <a href="#">
+                    <i class='bx bx-flag' ></i>
+                </a>
+                <a href="#">
+                    <i class='bx bx-bell' ></i>
+                </a>
+                <a href="login.html">
+                    <i class='bx bx-user-circle' ></i>
+                </a>
+            </div>
+        </div>
+    <!-- Navbar -->
+    
+     <div class="da">
+        <!-- content -->
+     <div class="content">
+        <div class="grip">
+            <div class="card">
+                <div class="cicon">
+                    <i class='bx bxs-user-circle'  ></i>
+                </div>
+                <div class="ctext">
+                    <h2>Employees</h2>
+                    <h2>96</h2>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cicon">
+                    <i class='bx bxs-user-circle'  ></i>
+                </div>
+                <div class="ctext">
+                    <h2>Employees</h2>
+                    <h2>96</h2>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cicon">
+                    <i class='bx bxs-user-circle'  ></i>
+                </div>
+                <div class="ctext">
+                    <h2>Employees</h2>
+                    <h2>96</h2>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cicon">
+                    <i class='bx bxs-user-circle'  ></i>
+                </div>
+                <div class="ctext">
+                    <h2>Employees</h2>
+                    <h2>96</h2>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cicon">
+                    <i class='bx bxs-user-circle'  ></i>
+                </div>
+                <div class="ctext">
+                    <h2>Employees</h2>
+                    <h2>96</h2>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cicon">
+                    <i class='bx bxs-user-circle'  ></i>
+                </div>
+                <div class="ctext">
+                    <h2>Employees</h2>
+                    <h2>96</h2>
+                </div>
+            </div>
+            
+        </div>
+        <div class="coll">
+            <div  id="chart"></div>
+            <div id='calendar'></div>  
+        </div>
+        <div id="map"></div>
+     </div>
+     <!-- content -->
+    </div>
+    </div>
+    
+    <!-- Main div -->
+     </div>
+</body>
+</html>
+
+<script>
+    $(document).ready(function(){
+        $(this).find(".btn").click(function(){
+            $(this).next(".a2").slideToggle(600);
+        })
+        $(".bx-menu").click(function(){
+            $(".sidebar").toggleClass("hide")
+            $(".navbar").toggleClass("full")
+            $(".sidebar-hide").toggleClass("show")
+        })
+    })
+    document.addEventListener('DOMContentLoaded', function() {
+        const calendarEl = document.getElementById('calendar')
+        const calendar = new FullCalendar.Calendar(calendarEl, {
+          initialView: 'dayGridMonth'
+        })
+        calendar.render()
+      })
+
+    
+      var options = {
+          series: [76, 67, 61, 90],
+          chart: {
+          height: 300,
+          type: 'radialBar',
+        },
+        plotOptions: {
+          radialBar: {
+            offsetY: 0,
+            startAngle: 0,
+            endAngle: 270,
+            hollow: {
+              margin: 5,
+              size: '30%',
+              background: 'transparent',
+              image: undefined,
+            },
+            dataLabels: {
+              name: {
+                show: false,
+              },
+              value: {
+                show: false,
+              }
+            }
+          }
+        },
+        colors: ['#1ab7ea', '#0084ff', '#39539E', '#0077B5'],
+        labels: ['Vimeo', 'Messenger', 'Facebook', 'LinkedIn'],
+        legend: {
+          show: true,
+          floating: true,
+          fontSize: '16px',
+          position: 'left',
+          offsetX: 160,
+          offsetY: 15,
+          labels: {
+            useSeriesColors: true,
+          },
+          markers: {
+            size: 0
+          },
+          formatter: function(seriesName, opts) {
+            return seriesName + ":  " + opts.w.globals.series[opts.seriesIndex]
+          },
+          itemMargin: {
+            vertical: 3
+          }
+        },
+        responsive: [{
+          breakpoint: 480,
+          options: {
+            legend: {
+                show: false
+            }
+          }
+        }]
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+
+
+
+
+
+        mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN';
+    const map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v9',
+        projection: 'globe', // Display the map as a globe, since satellite-v9 defaults to Mercator
+        zoom: 1,
+        center: [30, 15]
+    });
+
+    map.addControl(new mapboxgl.NavigationControl());
+    map.scrollZoom.disable();
+
+    map.on('style.load', () => {
+        map.setFog({}); // Set the default atmosphere style
+    });
+
+    // The following values can be changed to control rotation speed:
+
+    // At low zooms, complete a revolution every two minutes.
+    const secondsPerRevolution = 240;
+    // Above zoom level 5, do not rotate.
+    const maxSpinZoom = 5;
+    // Rotate at intermediate speeds between zoom levels 3 and 5.
+    const slowSpinZoom = 3;
+
+    let userInteracting = false;
+    const spinEnabled = true;
+
+    function spinGlobe() {
+        const zoom = map.getZoom();
+        if (spinEnabled && !userInteracting && zoom < maxSpinZoom) {
+            let distancePerSecond = 360 / secondsPerRevolution;
+            if (zoom > slowSpinZoom) {
+                // Slow spinning at higher zooms
+                const zoomDif =
+                    (maxSpinZoom - zoom) / (maxSpinZoom - slowSpinZoom);
+                distancePerSecond *= zoomDif;
+            }
+            const center = map.getCenter();
+            center.lng -= distancePerSecond;
+            // Smoothly animate the map over one second.
+            // When this animation is complete, it calls a 'moveend' event.
+            map.easeTo({ center, duration: 1000, easing: (n) => n });
+        }
+    }
+
+    // Pause spinning on interaction
+    map.on('mousedown', () => {
+        userInteracting = true;
+    });
+    map.on('dragstart', () => {
+        userInteracting = true;
+    });
+
+    // When animation is complete, start spinning if there is no ongoing interaction
+    map.on('moveend', () => {
+        spinGlobe();
+    });
+
+    spinGlobe();
+
+</script>

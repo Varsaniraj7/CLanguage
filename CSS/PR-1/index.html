@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .main1{
+            height: 580px;
+            width: 100%;
+            border: 1px solid #fff;
+            background-color: #EAE9E3;
+            background-image: url(https://preview.colorlib.com/theme/cozastore/images/slide-02.jpg);
+            background-size: cover;
+        }
+        .main1:hover{
+            transition: 0.9s;
+            background-image: url(https://preview.colorlib.com/theme/cozastore/images/slide-01.jpg);
+        }
+        .nav-1{
+            height: 30px;
+            width: 100%;
+            background-color: #222222;
+        }
+        .navF1{
+            font-size: 11.8px;
+            position: absolute;
+            margin: 0.5% 0% 0% 10%;
+            font-family: 'Poppins', sans-serif;
+            color: gray;
+        }
+        .navF2{
+            font-size: 11px;
+            position: absolute;
+            margin: -0.2% 0% 0% 69.1%;
+            padding: 7.5px;
+            font-family: 'Poppins', sans-serif;
+            color: gray;
+            border: 0.1px solid gray;
+        }
+        .navF3{
+            font-size: 11px;
+            position: absolute;
+            margin: -0.2% 0% 0% 75.5%;
+            padding: 7.5px;
+            font-family: 'Poppins', sans-serif;
+            color: gray;
+            border: 0.1px solid gray;
+        }
+        .navF4{
+            font-size: 11px;
+            position: absolute;
+            margin: -0.2% 0% 0% 81.8%;
+            padding: 7.5px;
+            font-family: 'Poppins', sans-serif;
+            color: gray;
+            border: 0.1px solid;
+        }
+        .navF5{
+            font-size: 11px;
+            position: absolute;
+            margin: -0.2% 0% 0% 84%;
+            padding: 7.5px;
+            font-family: 'Poppins', sans-serif;
+            color: gray;
+            border: 0.1px solid gray;
+        }
+        
+        .nav-2{
+            height: 55px;
+            width: 100%;
+            border: 1px solid #EAE9E3;
+            background-color: #EAE9E3;
+            display: flex;
+            justify-content: left;
+            position: fixed;
+        }
+        .nav-2:hover{
+            background-color: #fff;
+        }
+        #imgN{
+            height: 15px;
+            width: 100px;
+            margin: 1.8% 0% 0% 10%;
+        }
+        .fun-1{
+            margin: 1.4% 0% 0% 0%;
+        }
+        .function{
+            font-size: 13px;
+            font-family: 'Poppins', sans-serif;
+            text-decoration: none;
+            color: black;
+            position: absolute;
+            margin: 0% 0% 0% 8%;
+        }
+        .function:hover{
+            color: blue;
+        }
+        #icon1{
+            font-size: 15px;
+            margin: 1.5% 0% 0% 80%;
+            position: absolute;
+        }
+        #icon2{
+            font-size: 15px;
+            margin: 1.5% 0% 0% 83%;
+            position: absolute;
+        }
+        #icon3{
+            font-size: 15px;
+            margin: 1.5% 0% 0% 86%;
+            position: absolute;
+        }
+        .pers{
+            height: 270px;
+            width: 600px;
+            margin: 15% 0% 0% 10%;
+        }
+        .pers1{
+            font-size: 40px;
+            font-family: 'Poppins', sans-serif;
+        }
+        .pers2{
+            font-size: 50px;
+            font-family: 'Playfair Display', serif;
+            margin: 1% 0% 0% 0%;
+        }
+        .but-1{
+            font-size: 13px;
+            height: 45px;
+            width: 150px;
+            border-radius: 40px;
+            border-color: blue;
+            background-color: blue;
+            color: #fff;
+            margin: 7% 0% 0% 0%;
+            font-family:  'Poppins', sans-serif;
+        }
+        .but-1:hover{
+            background-color: black;
+            color: #fff;
+            border-color: black;
+        }
+        .second{
+            height: 200px;
+            width: 75%;
+            margin: 7% 0% 0% 14%;
+            display: flex;
+            flex-direction: row;
+            border: 1px solid #fff;
+        }
+        .sec-1{
+            height: 200px;
+            width: 33.3%;
+            margin: 0% 0% 0% 0%;
+            border: 1px solid #E6E6E6;
+            background-image: url(https://preview.colorlib.com/theme/cozastore/images/banner-01.jpg);
+            background-size: cover;
+            position: relative;
+            overflow: hidden;
+        }
+        .sec-1:hover{
+            background-color: #717FE0;
+        }
+        .sec-2{
+            height: 200px;
+            width: 33.3%;
+            margin: 0% 0% 0% 2.5%;
+            border: 1px solid #E6E6E6;
+            background-image: url(https://preview.colorlib.com/theme/cozastore/images/banner-02.jpg);
+            background-size: cover;
+        }
+        .sec-2:hover{
+            background-color: #717FE0;
+        }
+        .sec-3{
+            height: 200px;
+            width: 33.3%;
+            margin: 0% 0% 0% 2.5%;
+            border: 1px solid #E6E6E6;
+            background-image: url(https://preview.colorlib.com/theme/cozastore/images/banner-03.jpg);
+            background-size: cover;
+        }
+        .sec-3:hover{
+            background-color: #717FE0;
+        }
+        .se1{
+            height: 100px;
+            width: 200px;
+            margin: 11% 0% 0% 5%;
+        }
+        .se-pera{
+            font-size: 27px;
+            font-family: 'Poppins', sans-serif;
+            color: #333333;
+        }
+        .se2-pera{
+            font-size: 13px;
+            font-family: 'Poppins', sans-serif;
+            color: gray;
+        }
+        .three{
+            height: 1650px;
+            width: 80%;
+            margin: 10% 0% 0% 10%;
+        }
+        .t3head{
+            font-size: 35px;
+            font-family: 'Poppins', sans-serif;
+            margin: 1% 0% 0% 1%;
+        }
+        .three-nav{
+            height: 30px;
+            width: 100%;
+            /* background-color:; */
+            display: flex;
+            justify-content: left; 
+            margin: 1.5% 0% 0% 0.9%;
+        }
+        .func-3{
+            font-size: 11.5px;
+            font-family: 'Poppins', sans-serif;
+            text-decoration: none;
+            color: #333333;
+            margin: 0% 0% 0% 0%;
+        }
+        .func-3:hover{
+            color: #333333;
+            text-decoration: underline;
+        }
+        .bt3-1{
+            height: 31px;
+            width: 80px;
+            background-color: transparent;
+            border-radius: 5px;
+            border-color: #fff;
+            border-color: #E6E6E6;
+            color: gray;
+        }
+        #icn{
+            color: black;
+        }
+        .maindivimg{
+            height: 1380px;
+            width: 100%;
+            margin: 5% 0% 0% 0%;
+        }
+        .min1{
+            height: 320px;
+            width: 100%;
+            margin: 0% 0% 0% 0%;
+            display: flex;
+            flex-direction: row;
+        }
+        .min2{
+            height: 320px;
+            width: 100%;
+            margin: 1% 0% 0% 0%;
+            display: flex;
+            flex-direction: row;
+        }
+        .min3{
+            height: 320px;
+            width: 100%;
+            margin: 1% 0% 0% 0%;
+            display: flex;
+            flex-direction: row;
+        }
+        .min4{
+            height: 320px;
+            width: 100%;
+            margin: 1% 0% 0% 0%;
+            display: flex;
+            flex-direction: row;
+        }
+        .imegs1{
+            height: 320px;
+            width: 210px;
+            margin: 0% 1.3%;
+            background-image: url(https://preview.colorlib.com/theme/cozastore/images/product-01.jpg);
+            background-size: contain;
+            background-repeat:no-repeat;
+        }
+        .imegs1:hover{
+            transition: 0.8s ease;
+            transform: scale(1.1);
+        }
+        .imegs2{
+            height: 320px;
+            width: 210px;
+            margin: 0% 1.3%;
+            background-image: url(https://preview.colorlib.com/theme/cozastore/images/product-02.jpg);
+            background-size: contain;
+            background-repeat:no-repeat;
+        }
+        .imegs2:hover{
+            transition: 0.8s ease;
+            transform: scale(1.1);
+        }
+        .imegs3{
+            height: 320px;
+            width: 210px;
+            margin: 0% 1.3%;
+            background-image: url(https://preview.colorlib.com/theme/cozastore/images/product-03.jpg);
+            background-size: contain;
+            background-repeat:no-repeat;
+        }
+        .imegs3:hover{
+            transition: 0.8s ease;
+            transform: scale(1.1);
+        }
+        .imegs4{
+            height: 320px;
+            width: 210px;
+            margin: 0% 1.3%;
+            background-image: url(https://preview.colorlib.com/theme/cozastore/images/product-04.jpg);
+            background-size: contain;
+            background-repeat:no-repeat;
+        }
+        .imegs4:hover{
+            transition: 0.8s ease;
+            transform: scale(1.1);
+        }
+        .imegs5{
+            height: 320px;
+            width: 210px;
+            margin: 0% 1.3%;
+            background-image: url(https://preview.colorlib.com/theme/cozastore/images/product-05.jpg);
+            background-size: contain;
+            background-repeat:no-repeat;
+        }
+        .imegs5:hover{
+            transition: 0.8s ease;
+            transform: scale(1.1);
+        }
+        .imegs6{
+            height: 320px;
+            width: 210px;
+            margin: 0% 1.3%;
+            background-image: url(https://preview.colorlib.com/theme/cozastore/images/product-06.jpg);
+            background-size: contain;
+            background-repeat:no-repeat;
+        }
+        .imegs6:hover{
+            transition: 0.8s ease;
+            transform: scale(1.1);
+        }
+        .imegs7{
+            height: 320px;
+            width: 210px;
+            margin: 0% 1.3%;
+            background-image: url(https://preview.colorlib.com/theme/cozastore/images/product-07.jpg);
+            background-size: contain;
+            background-repeat:no-repeat;
+        }
+        .imegs7:hover{
+            transition: 0.8s ease;
+            transform: scale(1.1);
+        }
+        .imegs8{
+            height: 320px;
+            width: 210px;
+            margin: 0% 1.3%;
+            background-image: url(https://preview.colorlib.com/theme/cozastore/images/product-08.jpg);
+            background-size: contain;
+            background-repeat:no-repeat;
+        }
+        .imegs8:hover{
+            transition: 0.8s ease;
+            transform: scale(1.1);
+        }
+        .imegs9{
+            height: 320px;
+            width: 210px;
+            margin: 0% 1.3%;
+            background-image: url(https://preview.colorlib.com/theme/cozastore/images/product-09.jpg);
+            background-size: contain;
+            background-repeat:no-repeat;
+        }
+        .imegs9:hover{
+            transition: 0.8s ease;
+            transform: scale(1.1);
+        }
+        .imegs10{
+            height: 320px;
+            width: 210px;
+            margin: 0% 1.3%;
+            background-image: url(https://preview.colorlib.com/theme/cozastore/images/product-10.jpg);
+            background-size: contain;
+            background-repeat:no-repeat;
+        }
+        .imegs10:hover{
+            transition: 0.8s ease;
+            transform: scale(1.1);
+        }
+        .imegs11{
+            height: 320px;
+            width: 210px;
+            margin: 0% 1.3%;
+            background-image: url(https://preview.colorlib.com/theme/cozastore/images/product-11.jpg);
+            background-size: contain;
+            background-repeat:no-repeat;
+        }
+        .imegs11:hover{
+            transition: 0.8s ease;
+            transform: scale(1.1);
+        }
+        .imegs12{
+            height: 320px;
+            width: 210px;
+            margin: 0% 1.3%;
+            background-image: url(https://preview.colorlib.com/theme/cozastore/images/product-12.jpg);
+            background-size: contain;
+            background-repeat:no-repeat;
+        }
+        .imegs12:hover{
+            transition: 0.8s ease;
+            transform: scale(1.1);
+        }
+        .imegs13{
+            height: 320px;
+            width: 210px;
+            margin: 0% 1.3%;
+            background-image: url(https://preview.colorlib.com/theme/cozastore/images/product-13.jpg);
+            background-size: contain;
+            background-repeat:no-repeat;
+        }
+        .imegs13:hover{
+            transition: 0.8s ease;
+            transform: scale(1.1);
+        }
+        .imegs14{
+            height: 320px;
+            width: 210px;
+            margin: 0% 1.3%;
+            background-image: url(https://preview.colorlib.com/theme/cozastore/images/product-14.jpg);
+            background-size: contain;
+            background-repeat:no-repeat;
+        }
+        .imegs14:hover{
+            transition: 0.8s ease;
+            transform: scale(1.1);
+        }
+        .imegs15{
+            height: 320px;
+            width: 210px;
+            margin: 0% 1.3%;
+            background-image: url(https://preview.colorlib.com/theme/cozastore/images/product-15.jpg);
+            background-size: contain;
+            background-repeat:no-repeat;
+        }
+        .imegs15:hover{
+            transition: 0.8s ease;
+            transform: scale(1.1);
+        }
+        .imegs16{
+            height: 320px;
+            width: 210px;
+            margin: 0% 1.3%;
+            background-image: url(https://preview.colorlib.com/theme/cozastore/images/product-16.jpg);
+            background-size: contain;
+            background-repeat:no-repeat;
+        }
+        .imegs16:hover{
+            transition: 0.8s ease;
+            transform: scale(1.1);
+        }
+        .imgperus1{
+            font-size: 13px;
+            font-family: 'Poppins', sans-serif;
+            position: relative;
+            top: 84.5%;
+        }
+        .imgperus2{
+            font-size: 13px;
+            font-family: 'Poppins', sans-serif;
+            position: relative;
+            top: 86%;
+        }
+        #iconlike{
+            position: relative;
+            color: gray;
+            top: 73%;
+            left: 90%;
+        }
+        .imgbtn{
+            font-size: 12px;
+            height: 40px;
+            width: 130px;
+            border-radius: 50px;
+            border-color: #E6E6E6;
+            background-color: #E6E6E6;
+            color: black;
+            margin: 3.5% 0% 0% 43%;
+            font-family: 'Poppins', sans-serif;
+        }
+        .imgbtn:hover{
+            background-color: black;
+            color: #fff;
+            transition: 0.9s ease;
+            transform: scale(1.1);
+        }
+        .futs{
+            height: 430px;
+            width: 100%;
+            background-color: #222222;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .fut-1{
+            height: 300px;
+            width: 270px;
+            margin: 10% 0% 0% 10%;
+        }
+        .fut-2{
+            height: 300px;
+            width: 270px;
+            margin: 10% 0% 0% 1%;
+        }
+        .fut-3{
+            height: 300px;
+            width: 270px;
+            margin: 10% 0% 0% 1%;
+        }
+        .fut-4{
+            height: 300px;
+            width: 270px;
+            margin: 10% 10% 0% 1%;
+        }
+        .futhead{
+            font-size: 15px;
+            font-family: 'Montserrat', sans-serif;
+            color: #fff;
+        }
+        .futu1{
+            font-size: 13px;
+            font-family: 'Poppins', sans-serif;
+            color: #8D8E8D;
+            line-height: 30px;
+        }
+        .futu2{
+            font-size: 13px;
+            font-family: 'Poppins', sans-serif;
+            color: #8D8E8D;
+        }
+        .ion{
+            color: #8D8E8D;
+            margin: 10% 0%;
+        }
+        .eml{
+           font-size: 11px;
+           font-family: 'Poppins', sans-serif;
+           color: #8D8E8D;
+        }
+        .emline{
+            color: #343434;
+            margin: -4.5% 0% 0% 0%;
+        }
+        #futbut{
+            height: 40px;
+            width: 140px;
+            font-size: 12px;
+            border-radius: 25px;
+            font-family: 'Poppins', sans-serif;
+            background-color: #717FE0;
+            border-color: #717FE0;
+            color: #fff;
+        }
+        #futbut:hover{
+            transition: 0.9s ease;
+            transform: scale(1.1);
+            background-color: #fff;
+            color: #717FE0;
+            border-color: #fff;
+        }
+        .lastline{
+            font-size: 13px;
+            color: #8D8E8D;
+            margin: 28% 0% 0% 21%;
+        }
+        .lastline1{
+            font-size: 13px;
+            color: #8D8E8D;
+            margin: 35.5% 6% 0% 0%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main1">
+        <nav class="nav-1">
+         <p class="navF1">Free shipping for standard order over $100</p>
+         <p class="navF2">Help & FAQs</p>
+         <p class="navF3">My Account</p>
+         <p class="navF4">EN</p>
+         <p class="navF5">USD</p>
+        </nav>
+        <nav class="nav-2">
+            <img id="imgN" src="https://preview.colorlib.com/theme/cozastore/images/icons/logo-01.png" alt="">
+            <div class="fun-1">
+            <a href="" class="function" style="color: blue;">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="" class="function">Shop</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="" class="function">Features</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="" class="function">Blog</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="" class="function">About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="" class="function">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <i id="icon1" class="fa-solid fa-magnifying-glass"></i>
+            <i id="icon2" class="fa-solid fa-cart-shopping"></i>
+            <i id="icon3" class="fa-regular fa-heart"></i>
+        </nav>
+        <div class="pers">
+               <h4 class="pers1">Men New-Season</h4>
+               <h1 class="pers2">JECKETS & COATS</h1>
+               <button class="but-1">SHOP NOW</button>
+        </div>
+    </div>
+
+    <div class="second">
+              <div class="sec-1" id="sect-1">
+                <div class="se1">
+                    <h1 class="se-pera">Women</h1>
+                    <p class="se2-pera">Spring 2018</p>
+                </div>
+              </div>
+              <div class="sec-2">
+                <div class="se1">
+                    <h1 class="se-pera">Man</h1>
+                    <p class="se2-pera">Spring 2018</p>
+                </div>
+              </div>
+              <div class="sec-3">
+                <div class="se1">
+                    <h1 class="se-pera">Accessories</h1>
+                    <p class="se2-pera">New Trend</p>
+                </div>
+              </div>
+    </div>
+    <div class="three">
+        <h1 class="t3head"><b>PRODUCT OURVIEW</b></h1>
+        <nav class="three-nav">
+            <a href="" class="func-3" style="text-decoration: underline;color: black;">All Product</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="" class="func-3">Women</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="" class="func-3">Man</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="" class="func-3">Bag</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="" class="func-3">Shoes</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="" class="func-3">Watches</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <button class="bt3-1"><i id="icn" class="fa-solid fa-sort"></i>&nbsp;&nbsp;Filter</button>&nbsp;&nbsp;&nbsp;&nbsp;
+             <button class="bt3-1"><i id="icn" class="fa-solid fa-magnifying-glass"></i>&nbsp;&nbsp;Search</button>
+        </nav>
+        <div class="maindivimg">
+        <div class="min1">
+                <div class="imegs1">
+                    <h3 class="imgperus1">Esprit Ruffle Shirt</h3>
+                    <h3 class="imgperus2">$16.64</h3>
+                    <i id="iconlike" class="fa-regular fa-heart"></i>
+                </div>
+                <div class="imegs2">
+                    <h3 class="imgperus1">Herschel supply</h3>
+                    <h3 class="imgperus2">$35.31</h3>
+                    <i id="iconlike" class="fa-regular fa-heart"></i>
+                </div>
+                <div class="imegs3">
+                    <h3 class="imgperus1">Only Check Trouser</h3>
+                    <h3 class="imgperus2">$25.50</h3>
+                    <i id="iconlike" class="fa-regular fa-heart"></i>
+                </div>
+                <div class="imegs4">
+                    <h3 class="imgperus1">Classic Trench Coat</h3>
+                    <h3 class="imgperus2">$75.00</h3>
+                    <i id="iconlike" class="fa-regular fa-heart"></i>
+                </div>
+        </div>    
+         <br>
+        <div class="min2">
+            <div class="imegs5">
+                <h3 class="imgperus1">Front Pocket Jumper</h3>
+                <h3 class="imgperus2">$34.75</h3>
+                <i id="iconlike" class="fa-regular fa-heart"></i>
+            </div>
+            <div class="imegs6">
+                <h3 class="imgperus1">Vintage Inspired Classic</h3>
+                <h3 class="imgperus2">$93.20</h3>
+                <i id="iconlike" class="fa-regular fa-heart"></i>
+            </div>
+            <div class="imegs7">
+                <h3 class="imgperus1">Shirt in Stretch Cotton</h3>
+                <h3 class="imgperus2">$52.66</h3>
+                <i id="iconlike" class="fa-regular fa-heart"></i>
+            </div>
+            <div class="imegs8">
+                <h3 class="imgperus1">Pieces Metallic Printed</h3>
+                <h3 class="imgperus2">$18.96</h3>
+                <i id="iconlike" class="fa-regular fa-heart"></i>
+            </div>
+        </div>    
+        <br>
+        <div class="min3">
+            <div class="imegs9">
+                <h3 class="imgperus1">Converse All Star Hi Plimsolls</h3>
+                <h3 class="imgperus2">$75.00</h3>
+                <i id="iconlike" class="fa-regular fa-heart"></i>
+            </div>
+            <div class="imegs10">
+                <h3 class="imgperus1">Femme T-Shirt In Stripe</h3>
+                <h3 class="imgperus2">$25.85</h3>
+                <i id="iconlike" class="fa-regular fa-heart"></i>
+            </div>
+            <div class="imegs11">
+                <h3 class="imgperus1">Herschel supply</h3>
+                <h3 class="imgperus2">$63.16</h3>
+                <i id="iconlike" class="fa-regular fa-heart"></i>
+            </div>
+            <div class="imegs12">
+                <h3 class="imgperus1">Herschel supply</h3>
+                <h3 class="imgperus2">$63.15</h3>
+                <i id="iconlike" class="fa-regular fa-heart"></i>
+            </div>
+        </div>
+        <br>
+        <div class="min4">
+            <div class="imegs13">
+                <h3 class="imgperus1">T-Shirt with Sleeve</h3>
+                <h3 class="imgperus2">$18.49</h3>
+                <i id="iconlike" class="fa-regular fa-heart"></i>
+            </div>
+            <div class="imegs14">
+                <h3 class="imgperus1">Pretty Little Thing</h3>
+                <h3 class="imgperus2">$54.79</h3>
+                <i id="iconlike" class="fa-regular fa-heart"></i>
+            </div>
+            <div class="imegs15">
+                <h3 class="imgperus1">Mini Silver Mesh Watch</h3>
+                <h3 class="imgperus2">$86.85</h3>
+                <i id="iconlike" class="fa-regular fa-heart"></i>
+            </div>
+            <div class="imegs16">
+                <h3 class="imgperus1">Square Neck Back</h3>
+                <h3 class="imgperus2">$29.64</h3>
+                <i id="iconlike" class="fa-regular fa-heart"></i>
+            </div>
+        </div>
+        </div>
+        <button class="imgbtn">LOAD MORE</button>
+    </div>
+    <footer class="futs">
+        <div class="fut-1">
+        <h2 class="futhead">CATEGORIES</h2><br><br>
+               <p class="futu1">
+                Women <br>
+                Men   <br>
+                Shoes <br>
+                Watches</p>
+        </div>
+        <div class="fut-2">
+            <h2 class="futhead">HELP</h2><br><br>
+            <p class="futu1">
+                Track Order <br>
+                Returns <br>
+                Shipping <br>
+                FAQs</p>
+                <p class="lastline">Copyright ©2024 All rights reserved </p>
+        </div>
+        <div class="fut-3">
+            <h2 class="futhead">GET IN TOUCH</h2><br><br>
+            <p class="futu2">Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879</p>
+            <p class="ion"><i class="fa-brands fa-facebook"></i>&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-instagram"></i>&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-pinterest"></i></p>
+            <p class="lastline1">| This template is made with  by Colorlib</p>
+        </div>
+        <div class="fut-4">
+            <h2 class="futhead">NEWSLETTER</h2><br><br>
+            <p class="eml">email@example.com</p>
+            <p class="emline">__________________</p><br>
+            <button id="futbut">SUBSCRIBE</button>
+        </div>
+    </footer>
+</body>
+</html>

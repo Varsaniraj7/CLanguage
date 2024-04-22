@@ -1,0 +1,710 @@
+@font-face{
+    font-family: 'PinyonScript-regular.ttf';
+    src:url('PinyonScript-regular.ttf');
+}
+.main{
+    
+    width: 100%;
+    height:700px ;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    
+    background-color:white;
+}
+#img1{
+    height: 65%;
+    width: 100px;
+    margin: 20px;
+    margin-left: 100px;
+}
+#subdiv{
+    
+    height: 100%;
+    width: 70%;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#anc1{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+    
+}
+#anc1:hover{
+    color:#F45D96;
+}
+.subdiv2{
+    
+    width: 100%;
+    height: 600px;
+    background-image: url('https://preview.colorlib.com/theme/florist/img/hero/hero-2.jpg');
+    background-size:contain;
+    background-repeat: round;
+    
+}
+#subdiv3{
+    
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3%;
+}
+#p1{
+    color: black;
+    font-size: 20px;
+}
+#h1{
+    color: black;
+    font-size: 50px;
+    text-transform: capitalize;
+
+}
+#b1{
+    color: white;
+    background-color: #F45D96;
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: none;
+}
+.main2{
+    
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#d1{
+   
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#be1{
+    font-size: 30px;
+    position: absolute;left:9% ;top: 107.5%;
+    color:#111111;
+}
+#be2{
+    font-size: 30px;
+    position: absolute;left:35% ;top: 107.5%;
+    color:#111111;
+}
+#be3{
+    font-size: 30px;
+    position: absolute;left:60% ;top: 107.5%;
+    color:#111111;
+}
+#be4{
+    font-size: 30px;
+    position: absolute;left:83% ;top: 107.5%;
+    color:#111111;
+}
+#j1{
+    color: gray;
+    font-size: 20px;
+    position: absolute;left:9% ;top: 115%;
+}
+#j2{
+    color: gray;
+    font-size: 20px;
+    position: absolute;left:35% ;top: 115%;
+}
+#j3{
+    color: gray;
+    font-size: 20px;
+    position: absolute;left:60% ;top: 115%;
+}
+#j4{
+    color: gray;
+    font-size: 20px;
+    position: absolute;left:83% ;top: 115%;
+}
+#l1{
+    height: 70px;
+    width: 70px;
+}
+.main3{
+    
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+#v1{
+   
+    height: 95%;
+    width: 20%;
+    margin-top: 10px;
+    background-image: url('https://preview.colorlib.com/theme/florist/img/categories/categories-1.jpg');
+    background-repeat: round;
+    background-size: contain;
+}
+#v2{
+   
+    height: 95%;
+    width: 20%;
+    margin-top: 10px;
+    background-image: url('https://preview.colorlib.com/theme/florist/img/categories/categories-2.jpg');
+    background-repeat: round;
+    background-size: contain;
+}
+#v3{
+    
+    height: 95%;
+    width: 20%;
+    margin-top: 10px;
+    background-image: url('https://preview.colorlib.com/theme/florist/img/categories/categories-3.jpg');
+    background-repeat: round;
+    background-size: contain;
+}
+#v4{
+   
+    height: 95%;
+    width: 20%;
+    margin-top: 10px;
+    background-image: url('https://preview.colorlib.com/theme/florist/img/categories/categories-4.jpg');
+    background-repeat: round;
+    background-size: contain;
+}
+#z1{
+   
+    height: 80px;
+    width: 90%;
+    background-color: white;
+    margin-top: 130%;
+    margin-left: 5%;
+}
+#f1{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 45px;
+}
+#f2{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+#k1{
+    font-size: 15px;
+    color: gray;
+    margin-left: 95px;
+    position: relative;bottom: 20px;
+}
+.main4{
+   
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+#t1{
+   
+    height: 100%;
+    width: 32%;
+}
+#t2{
+    
+    height: 100%;
+    width: 68%;
+    
+}
+#pl1{
+    color:#F45D96 ;
+    font-size: 20px;
+    margin-top: 25px;
+}
+#ef1{
+    font-size: 50px;
+}
+#fg1{
+    color: black;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-left: 15px;
+}
+.main5{
+   
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+#subd1{
+   
+    height: 80%;
+    width: 50%;
+    position: absolute;top: 235%;LEFT: 7%;
+}
+#subd2{
+   
+    height: 500px;
+    width: 40%;
+    position: absolute;top: 230%;right: 7%;
+    background-color:white;
+    
+}
+#km1{
+    height: 100%;
+    width: 100%;
+    position: relative;top: 25px;
+}
+#we1{
+    font-size: 20px;
+    color: #F45D96;
+    margin-left: 10px;
+}
+#df1{
+    font-size: 40px;
+    margin-top: 50PX;
+    margin-left: 10px;
+}
+#we2{
+    font-size: 20px;
+    margin-top: 100PX;
+    margin-left: 25px;
+}
+#b2{
+    color: white;
+    background-color: #F45D96;
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: none;
+    margin-left: 10px;
+}
+.main6{
+          width: 100%;
+    height: 1100px;
+}
+#cv1{
+    color: #F45D96;
+    font-size: 25px;
+    text-align: center;
+}
+#rf1{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#bg1{
+    height: 50px;
+    width: 60%;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+#vf1{
+    color: gray;
+    font-size: 19px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+#vf1:hover{
+    
+    
+    border: 2px solid #F45D96;
+    
+
+}
+#img10{
+  
+    width: 100%;
+    height: 850px;
+    
+}
+.km1{
+     width:17.5%;
+    height: 45%;
+    float: left;
+    margin: 15px;
+    background-image: url('https://preview.colorlib.com/theme/florist/img/product/product-1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 50px;
+}
+.km2{
+     width:17.5%;
+    height: 45%;
+    float: left;
+    margin: 15px;
+    background-image: url('https://preview.colorlib.com/theme/florist/img/product/product-2.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 50px;
+}
+.km3{
+     width:17.5%;
+    height: 45%;
+    float: left;
+    margin: 15px;
+    background-image: url('https://preview.colorlib.com/theme/florist/img/product/product-3.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 50px;
+}
+.km4{
+     width:17.5%;
+    height: 45%;
+    float: left;
+    margin: 15px;
+    background-image: url('https://preview.colorlib.com/theme/florist/img/product/product-4.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 50px;
+}
+.km5{
+     width:17.5%;
+    height: 45%;
+    float: left;
+    margin: 15px;
+    background-image: url('https://preview.colorlib.com/theme/florist/img/product/product-5.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 50px;
+}
+.km6{
+     width:17.5%;
+    height: 45%;
+    float: left;
+    margin: 15px;
+    background-image: url('https://preview.colorlib.com/theme/florist/img/product/product-6.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 50px;
+}
+.km7{
+     width:17.5%;
+    height: 45%;
+    float: left;
+    margin: 15px;
+    background-image: url('https://preview.colorlib.com/theme/florist/img/product/product-7.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 50px;
+}
+.km8{
+     width:17.5%;
+    height: 45%;
+    float: left;
+    margin: 15px;
+    background-image: url('https://preview.colorlib.com/theme/florist/img/product/product-8.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 50px;
+}
+.km9{
+     width:17.5%;
+    height: 45%;
+    float: left;
+    margin: 15px;
+    background-image: url('https://preview.colorlib.com/theme/florist/img/product/product-9.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 50px;
+}
+.km10{
+     width:17.5%;
+    height: 45%;
+    float: left;
+    margin: 15px;
+    background-image: url('https://preview.colorlib.com/theme/florist/img/product/product-10.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 50px;
+}
+.cx1{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 350px;
+}
+.xc1{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.w{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+.main7{
+   
+    width: 100%;
+    height: 500px;
+    background-image: url('https://preview.colorlib.com/theme/florist/img/call-bg.jpg');
+    background-repeat: round;
+    background-size: contain;
+}
+#sub6{
+   
+    height: 100%;
+    width: 40%;
+    
+}
+.hp1{
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;top: 60px;left: 15px;
+}
+.as1{
+    color: white;
+    font-size: 70px;
+    font-family:'PinyonScript-Regular.ttf';
+    position: relative;top: 70px;left: 15px;
+}
+.sq1{
+    color: white;
+    background-color: #F45D96;
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: none;
+    position: relative;top: 72px;
+}
+.sq2{
+    color: #F45D96;
+    background-color:white;
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: none;
+    position: relative;left: 20px;top: 75px;
+}
+.main8{
+    
+    width: 100%;
+    height: 700px;
+}
+#q1{
+    color: #F45D96;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;top: 30px;left: 30px;
+
+}
+#wm{
+    font-size: 50px;
+    position: relative;left: 30px;
+}
+#sa1{
+    color: black;
+    background-color:white;
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    font-size: 20px;
+    border:3px solid #F45D96;
+    position: relative;right: -1200px;top: -120px;
+}
+#po1{
+  
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.subd3{
+    
+    width: 28%;
+    height: 100%;
+    margin: 10px;
+}
+.rtx{
+    height: 60%;
+    width: 100%;
+}
+.ng1{
+    font-size: 30px;
+    text-align: center;
+}
+.ng1:hover{
+    text-decoration: underline;
+}
+.gj{
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+}
+.main9{
+    
+    width: 100%;
+    height: 500px;
+    background-image: url('https://i.pinimg.com/736x/3e/8c/1e/3e8c1e99de53ca9de5e17abbb4a591ed.jpg');
+    background-size: cover;
+    background-repeat: round;
+    align-items: center;
+}
+
+.lk4{
+   
+    height: 50%;
+    width: 60%;
+    align-items: center;
+    margin-top: 150px;
+}
+.dog1{
+    font-size: 25px;
+    font-family: cursive;
+    color:#388078;
+}
+.gfy1{
+    font-size: 35px;
+    color:#388078;
+}
+.h3{
+    color:#388078;
+}
+.main10{
+   
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#ert1{
+ 
+    height: 100%;
+    width: 18%;
+    background-image: url('https://preview.colorlib.com/theme/florist/img/instagram/insta-1.jpg');
+    background-repeat: round;
+    background-size: cover;
+
+}
+#ert2{
+   
+    height: 100%;
+    width: 18%;
+    background-image: url('https://preview.colorlib.com/theme/florist/img/instagram/insta-2.jpg');
+    background-repeat: round;
+    background-size: cover;
+
+}
+#ert3{
+   
+    height: 100%;
+    width: 18%;
+    background-image: url('https://preview.colorlib.com/theme/florist/img/instagram/insta-3.jpg');
+    background-repeat: round;
+    background-size: cover;
+
+}
+#ert4{
+  
+    height: 100%;
+    width: 18%;
+    background-image: url('https://preview.colorlib.com/theme/florist/img/instagram/insta-4.jpg');
+    background-repeat: round;
+    background-size: cover;
+
+}
+#ert5{
+    
+    height: 100%;
+    width: 18%;
+    background-image: url('https://preview.colorlib.com/theme/florist/img/instagram/insta-5.jpg');
+    background-repeat: round;
+    background-size: cover;
+
+}
+.main12{
+  
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+#pol1{
+   
+    height: 100px;
+    width: 20%;
+}
+#pol2{
+    
+    height: 100px;
+    width: 20%;
+    flex-grow: 2;
+}
+#pol3{
+   
+    height: 100px;
+    width: 20%;
+    flex-basis: 250px;
+    font-size: 35px;
+    text-align: center;
+    
+}
+.tred1{
+    height: 60%;
+    width: 50%;
+    position: relative;top: 15px;left: 80px;
+}
+.qwe1{
+    font-size: 20px;
+    text-align: center;
+}
+#cvb1{
+    margin-top: 20px;
+}
+.tuf1{
+   
+    width: 33.2%;
+    height: 200px;
+    
+}
+.tufmain{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    
+    
+    align-items: center;
+    
+}
+.tuf2{
+   
+    width: 33.2%;
+    height: 200px;
+    
+    
+}
+.lio1{
+    margin-left:80px ;
+}
+.fox1{
+    margin-left:80px ;
+}
+.wat1{
+    word-spacing: 200px;
+    margin-left:80px ;
+}
+.wat2{
+    margin-left: 80px;
+}
+#pic1{
+    margin-left: 80px;
+}
+#pic2{
+    margin-left: 80px;
+    line-height: 30px;
+}
+.table1{
+    text-align: center;
+    
+}
+.volt1{
+    text-align: center;
+    font-size: 15px;
+}

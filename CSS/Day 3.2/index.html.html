@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+    </style>
+    <style>
+        .body-container{
+            margin: 30px 15% 20px 15%;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            background-color: blanchedalmond;
+            margin-top: 5%;
+        }
+        .container-img{
+            width: 30%;
+        }
+        .container-form{
+            width: 70%;
+            padding: 20px;
+        
+        }
+        .img{
+            width: 100%;
+            height: 500px;
+        }
+        .input-container{
+            display: flex;
+            gap:10px;
+            margin-bottom: 10px;
+        }
+        .input-div{
+            width: 33%;
+        }
+        .body{
+            margin: 10px;
+        }
+        .demo{
+            border:3px solid black;
+            background-color: red;
+            padding: 10px;
+            margin: 50px;
+        }
+        .input{
+            padding: 10px;
+            width: 100%;
+        }
+        .textarea{
+            width: 100%;
+        }
+        .para{
+            text-align: center;
+            font-family:'Courier New', Courier, monospace ;
+        }
+        .para1{
+              font-size: 40px;
+              text-align: center;
+              font-family: cursive;
+              color: black;
+        }
+        .color{
+            color: red;
+            text-align: center;
+            font-size: 40px;
+            font-family: cursive;
+        }
+        .button{
+            size: 10px;height: 35px;background-color: red;width: 100px;border: 1px solid red;border-radius: 25px;
+            color: white;
+        }
+        .btn{
+            text-align: center;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body class="body-container">
+    <p class="para">Book a Table</p>
+    <p class="para1">Book <span class="color">Your Stay </span>With Us</p>
+    
+    <div class="container" >
+    <div class="container-img">  
+        <img class="img" src="https://www.brides.com/thmb/GFKFB2-4R2Mb9t6AIRqxVbiAPrA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__brides__public__brides-services__production__2018__04__19__5ad8d69bfa005505b069ff4a_smylie-kaufman-and-francie-harris-wedding19-72430d42bb6b4512b454a84ad08894a1.jpg" alt="">
+    </div>
+    <div class="container-form">
+        <form action="">
+            <div class="input-container" >
+                <div class="input-div">
+                    <input type="text" class="input" placeholder="Your Name" />
+                </div>
+                <div class="input-div"> 
+                    <input type="text" class="input" placeholder="Your Email" />
+                </div>
+                <div class="input-div">
+                    <input type="text" class="input" placeholder="Your Phone" />
+                </div>
+            </div>
+            <div class="input-container" >
+                <div class="input-div">
+                    <input type="text" class="input" placeholder="Date" />
+                </div>
+                <div class="input-div">
+                    <input type="text" class="input" placeholder="Time" /> 
+                </div>
+                <div class="input-div">
+                    <input type="text" class="input" placeholder="#of People" />
+                </div>
+            </div>
+            <textarea name="" id="" rows="10" class="textarea" placeholder="text area"></textarea>
+            <div class="btn" ><button class="button">Book a Table</button></div>
+        </form>
+    </div>
+</div>
+
+
+
+    
+</body>
+</html>

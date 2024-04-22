@@ -1,0 +1,297 @@
+*{
+    box-sizing:border-box;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    /* position: fixed; */
+}
+.Nimg{
+    height: 15px;
+    width: 80px;
+    margin: 1.8% 0% 0% 6%
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    margin: 1.8% 0% 0% 2%  
+}
+.NS{
+   border: none;
+   position: absolute;
+   top: 4.7%;
+   left: 15%;
+   font-size: 16px;
+   color: #6c757d;
+}
+.NS:hover{
+   color: black;
+}
+.NP{
+   border: none;
+   position: absolute;
+   top: 4.7%;
+   left: 20%;
+   font-size: 16px;
+   color: #6c757d;
+}
+.NP:hover{
+   color: black;
+}
+.NB{
+   border: none;
+   position: absolute;
+   left: 24%;
+   font-size: 18px;
+   color: #6c757d;
+}
+.NB:hover{
+   color: black;
+}
+.NC{
+   position: absolute;
+   left: 28%;
+   font-size: 18px;
+   color: #6c757d;
+}
+.NC:hover{
+   color: black;
+}
+.ndiv1{
+    height: 70px;
+    width: 200px;
+    margin:-3.1% 0% 0% 70%;
+}
+.ndiv2{
+    height: 70px;
+    width: 80px;
+    margin:-4.8% 0% 0% 83.4%;
+}
+.ndiv3{
+    height: 70px;
+    width: 80px;
+    margin:-4.7% 0% 0% 88.9%;
+}
+.ndiv4{
+    height: 70px;
+    width: 80px;
+    margin:-4.7% 0% 0% 94.4%;
+}
+#iconS{
+    font-size: 13px;
+    margin: 13% 0% 0% 0%;
+}
+#iconH{
+    font-size: 22px;
+    margin: 32% 0% 0% 30%;
+}
+.main{
+    height: 600px;
+    width: 100%;
+    border: 1px solid aliceblue;
+    background-image:url(bg-1.jpg) ;
+    background-size: cover;
+}
+.dm1{
+    height: 300px;
+    width: 600px;
+    margin: 13% 0% 0% 25%;
+}
+.para1{
+    font-size: 23px;
+    color: #6c757d;
+}
+.but1{
+    height: 40px;
+    width: 170px;
+    background-color: blue;
+    color: white;
+}
+.but1:hover{
+    background-color: #e83e8c;
+    transition-timing-function: ease;
+}
+.para2{
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+}
+.second{
+    height: 300px;
+    width: 100%;
+    border: 1px solid aliceblue;
+}
+.sd1{
+   height: 200px;
+   width: 250px;
+   border: 1px solid aliceblue;
+   margin: 3% 0% 0% 12%;
+   display: inline-block;
+   background-image: url(https://preview.colorlib.com/theme/essence/img/bg-img/bg-2.jpg.webp);
+   background-size: cover;
+}
+.sd2{
+   height: 200px;
+   width: 250px;
+   border: 1px solid aliceblue;
+   margin: 0% 0% 0% 12%;
+   display: inline-block;
+   background-image: url(https://preview.colorlib.com/theme/essence/img/bg-img/bg-3.jpg.webp);
+   background-size: cover;
+}
+.sd3{
+   height: 200px;
+   width: 250px;
+   border: 1px solid aliceblue;
+   margin: 3% 0% 0% 12%;
+   display: inline-block;
+   background-image: url(https://preview.colorlib.com/theme/essence/img/bg-img/bg-4.jpg.webp);
+   background-size: cover;
+}
+.sfont{
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    margin-top: 33%;
+}
+.sfont:hover{
+    color: blue;
+}
+.thard{
+    height: 500px;
+    width: 80%;
+    margin: 0% 0% 0% 10%;
+    border-color: aliceblue;
+
+}
+.tdiv1{
+    height: 500px;
+    width: 100%;
+    border: 1px solid aliceblue;
+    background-image: url(https://preview.colorlib.com/theme/essence/img/bg-img/bg-5.jpg.webp);
+    background-size: cover;
+}
+.tdpara1{
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+    position: absolute;
+    margin:12% 0% 0% 55%;
+    color: #e92f86;
+}
+.tdpara2{
+    font-size: 50px;
+    font-family: 'Kanit', sans-serif;
+    position: absolute;
+    margin:17% 0% 0% 55%;
+}
+.tdbut2{
+    height: 50px;
+    width: 170px;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    position: absolute;
+    margin:25% 0% 0% 55%;
+    color: white;
+    background-color: blue;
+}
+.tdbut2:hover{
+    background-color: #e83e8c;
+}
+.fourth{
+    height: 400px;
+    width: 80%;
+    border: 1px solid aliceblue;
+    margin:0% 0% 0% 10%;
+}
+.fhead{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+.fpara1{
+    height: 400px;
+    width: 20%;
+    margin:0% 0% 0% 0%;
+    border: 1px solid aliceblue;
+}
+.fpara2{
+    height: 400px;
+    width: 20%;
+    margin:-34.5% 0% 0% 27%;
+    border: 1px solid aliceblue;
+}
+.fpara3{
+    height: 400px;
+    width: 20%;
+    margin:-34.3% 0% 0% 54%;
+    border: 1px solid aliceblue;
+}
+.fpara4{
+    height: 400px;
+    width: 20%;
+    margin:-34.2% 0% 0% 80%;
+    border: 1px solid aliceblue;
+}
+#fim1{
+    height: 320px;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1618886614638-80e3c103d31a?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWVucyUyMGZhc2hpb258ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+}
+#fim1:hover{
+    background-image: url(https://i.pinimg.com/736x/1a/81/e8/1a81e88dd67a023763ac2abacd5d4fb3.jpg);
+}
+#fim2{
+    height: 320px;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/474x/57/13/84/571384b44a441cb605bc785365882716.jpg);
+    background-size: cover;
+}
+#fim2:hover{
+    background-image: url(https://i.pinimg.com/564x/a5/57/fc/a557fce1f9fa0f248cdbbce06390da48.jpg);
+}
+#fim3{
+    height: 320px;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/originals/45/c4/dc/45c4dcd60d83d2253405f813ea9355d5.jpg);
+    background-size: cover;
+}
+#fim3:hover{
+    background-image: url(https://i.pinimg.com/736x/01/23/5f/01235fe53c496d7d82fc07fd3dcab2ec.jpg);
+}
+#fim4{
+    height: 320px;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/736x/ec/04/b9/ec04b9fbb640dd4f1beaa533ebc76a1c.jpg);
+    background-size: cover;
+}
+#fim4:hover{
+    background-image: url(https://i.pinimg.com/474x/c3/92/41/c39241ef82e9fbd1cebb2bd118b5c6ab.jpg);
+}
+.fh4{
+    font-size: 15px;
+    color: #555d63;
+    font-family: 'Kanit', sans-serif;
+    margin:1% 0% 0% 0%;
+}
+.fp2{
+    font-size: 11px;
+    margin:0% 0% 0% 0%;
+    font-family: 'Kanit', sans-serif;
+}
+.fperu1{
+    margin:-3% 0% 0% 0%;
+    font-family: 'Kanit', sans-serif;
+}
+.fperu2{
+    margin:-3% 0% 0% 0%;
+    font-family: 'Kanit', sans-serif;
+}
+.fperu3{
+    margin:-10.5% 0% 0% 0%;
+    font-family: 'Kanit', sans-serif; 
+}
+.fperu4{
+    margin:-2.9% 0% 0% 0%;
+    font-family: 'Kanit', sans-serif;
+}

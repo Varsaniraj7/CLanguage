@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: GreatVibes-Regular;
+    src: url("assets/Great_Vibes/GreatVibes-Regular.ttf");
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/1.svg"), url("images/Main_bg.jpg");
+    background-size: cover;
+    background-position: left;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+nav{
+    display: flex;
+    margin-inline: 10%;
+    padding-top: 20px;
+    justify-content: space-between;
+    cursor: default;
+}
+.logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+}
+.navigation{
+    word-spacing: 30px;
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+    transition-duration: .4s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navigation a:first-child{
+    color: rgb(204, 162, 100); 
+}
+.navigation a:hover{
+    color: rgb(204, 162, 100);
+}
+button{
+    background-color: rgb(204, 162, 100);
+    border: none;
+    height: 40px;
+    color: white;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.main_head{
+    font-family: GreatVibes-Regular;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(204, 162, 100);
+}
+.main_head2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.image{
+    margin-top: 100px;
+    margin-inline: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.image img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+/* ---------------------------------------------------- */
+
+
+.a_main{
+    padding-block: 30px;
+    display: flex;
+    height: 100vh;
+    width: 90%;
+    margin-inline: 5%;
+}
+
+.img {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img1{
+    height: 90%;
+    width: 45%;
+}
+.img1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.img2{
+    height: 90%;
+    width: 45%;
+    margin-top: 8%;
+}
+.img2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.content{
+    width: 40%;
+    height: 100%;
+    padding-inline: 20px;
+}
+.a_head{
+    font-family: GreatVibes-Regular;
+    margin-top: 100px;
+    font-size: 80px;
+    line-height: 0;
+    color: #C9AA81;
+}
+.sub_head{
+    font-size: 45px;
+    line-height: 0.9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sub_head div{
+    margin-top: 15px;
+}
+.para{
+    margin-right: 30px;
+    margin-top: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    
+}
+.para p:first-child{
+    color: darkgrey;
+}
+.number{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    line-height: 0;
+    color: #C9AA81;
+    margin-top: 50px;
+    font-weight: 900;
+}
